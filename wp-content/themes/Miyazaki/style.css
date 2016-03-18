@@ -23,5 +23,17 @@
 #show-row {background: #F47E14;
            height: 350px; 
 		   width:cover; } 
+		   
+#hayao{padding-left: 410px;}
 
-#hm {width: 750px;}
+#hm {float:right;
+     width: 750px;
+	 padding-right:150px;}
+
+
+#hmimage{padding-left: 80px; 
+         margin-top: -50px;
+          height: 275px; 
+         width: 275px;
+		 float: left;
+		 }
