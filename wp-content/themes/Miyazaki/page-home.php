@@ -35,7 +35,9 @@ get_header(); ?>
 
 	<?php get_sidebar( 'content-bottom' ); ?>
     
-    <div id="about"> 
+    <div id="about">
+    <h1> About </h1>
+    <p id="hm"> Hayao Miyazaki was born in Tôkyô on January 5, 1941. He started his career in 1963 as an animator at the studio Toei Douga studio, and was subsequently involved in many early classics of Japanese animation. From the beginning, he commanded attention with his incredible drawing ability and the seemingly endless stream of movie ideas he proposed. </p>
     </div> <!--ends about---> 
     
     <div id= "show-row"> 

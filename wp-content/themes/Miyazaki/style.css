@@ -15,8 +15,13 @@
 
 #about {background: #0673F6;
         height: 350px; 
-		width:cover; 
+		width:cover;
+		color: #fff;
+		padding: 20px;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
    }
 #show-row {background: #F47E14;
            height: 350px; 
 		   width:cover; } 
+
+#hm {width: 750px;}
