@@ -12,8 +12,11 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
-#tv{background: url(http://www.miyazaki.dev/wp-content/uploads/2016/03/miyazaki_tv.png); 
-     background-repeat: no-repeat;
-	 background-size: cover;
-	 height: 500px;}
-   
+
+#about {background: #0673F6;
+        height: 350px; 
+		width:cover; 
+   }
+#show-row {background: #F47E14;
+           height: 350px; 
+		   width:cover; } 

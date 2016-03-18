@@ -19,20 +19,16 @@
 
 	<div class="entry-content">
 		<?php
+		
 		// display date field
-			if ( get_post_meta( get_the_ID(), 'Date', true ) ) {
-				$display_date = date('F d, Y', strtotime(get_post_meta($post->ID, "Date", true)));
+			if ( get_post_meta( get_the_ID(), 'date', true ) ) {
+				$display_date = date('F d, Y', strtotime(get_post_meta($post->ID, "date", true)));
 				echo 'Today is: ' . $display_date . '<br>';
 			}
-			// display price field
-			if ( get_post_meta( get_the_ID(), 'Review', true ) ) {
-				$shows_review = get_post_meta( get_the_ID(), 'Review', true );
+			// display review field
+			if ( get_post_meta( get_the_ID(), 'review', true ) ) {
+				$shows_review = get_post_meta( get_the_ID(), 'review', true );
 				echo 'This shows review are: ' . $shows_review . '<br><br>';
-			}
-			// display TYPES price field
-			if ( get_post_meta( get_the_ID(), 'wpcf-client-price', true ) ) {
-				$types_price = get_post_meta( get_the_ID(), 'wpcf-client-price', true );
-				echo 'Client has paid $' . $types_price . '<br><br>';
 			}
 		
 		
