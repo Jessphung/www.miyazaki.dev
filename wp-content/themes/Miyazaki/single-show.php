@@ -12,9 +12,16 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
     
-		<?php $show_date = date('d F Y', strtotime(get_post_meta(get_the_ID(), 'wpfc-date', true ))); 
+		<?php 
+		$show_date = date('Y-m-d', strtotime(get_post_meta(get_the_ID(), 'wpfc-date', true ))); 
 		echo 'Date: ' . $show_date.  '<br>' ;
-        
+					
+					if ( get_post_meta( get_the_ID(), 'Date', true ) ) {
+				$display_Date = date('F d, Y', strtotime(get_post_meta($post->ID, "Date", true)));
+				echo 'Work began on: ' . $display_Date . '<br>';
+			}
+
+		
         ?>
 		
 		<?php
